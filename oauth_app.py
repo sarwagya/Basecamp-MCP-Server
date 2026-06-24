@@ -447,9 +447,9 @@ def health_check():
 
 if __name__ == '__main__':
     try:
-        logger.info("Starting OAuth app on port %s", os.environ.get('PORT', 8000))
+        logger.info("Starting OAuth app on port %s", os.environ.get('PORT', 8008))
         # Run the Flask app
-        port = int(os.environ.get('PORT', 8000))
+        port = int(os.environ.get('PORT', 8008))
 
         # Disable debug and auto-reloader when running in production or background
         is_debug = os.environ.get('FLASK_DEBUG', 'False').lower() == 'true'
