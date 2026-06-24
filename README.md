@@ -74,7 +74,7 @@ Authenticate with Basecamp:
 python oauth_app.py
 ```
 
-Open <http://localhost:8000> and complete the OAuth flow. The token is stored locally in `oauth_tokens.json` by default.
+Open <http://localhost:8008> and complete the OAuth flow. The token is stored locally in `oauth_tokens.json` by default.
 
 ## Configure Your MCP Client
 
